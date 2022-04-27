@@ -1,0 +1,37 @@
+.Footer{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    color: red;
+    margin-top: 60px;
+    border: 2px solid aqua;
+}
+.Footer button{
+    border: 3px solid aqua;
+    height: 21px;
+    border-radius: 15px;
+}
+.border-bottom{
+    border-bottom: 4px solid aqua;
+}
+.Footer-FirstBlock :hover{
+    text-align: center;
+    border-radius: 15px;
+    background-color: red;
+    border: 3px solid aqua;
+    color: black;
+}
+.Footer-SecondBlock :hover{
+    text-align: center;
+    border-radius: 15px;
+    background-color: red;
+    border: 3px solid aqua;
+    color: black;
+}
+.FooterButton :hover{
+    text-align: center;
+    border-radius: 15px;
+    background-color: red;
+    border: 3px solid aqua;
+    color: black;
+}

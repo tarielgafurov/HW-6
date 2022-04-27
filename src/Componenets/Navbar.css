@@ -1,0 +1,51 @@
+body{
+    background-image: url('https://images.unsplash.com/photo-1623479322729-28b25c16b011?ixlib=rb-1.2.1&ixid=MnwxMjA3fDB8MHxzZWFyY2h8MTR8fHByb2dyYW1tZXJ8ZW58MHx8MHx8&auto=format&fit=crop&w=700&q=60');
+}
+
+.NavBlocks{
+    height: 90px;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    /* border: 2px solid aqua; */
+    border-radius: 20px;
+    color: white;
+}
+.NavIcon{
+    width: 60px;
+    height: 35px;
+    border: 3px solid chartreuse;
+    border-radius: 35px;
+    background-color: blueviolet;
+    
+}
+.NavIcon:hover{
+    background-color: red;
+    box-shadow: 10px 5px 5px white;
+}
+.NavUl{
+    list-style: none;
+    display: flex;
+    justify-content: space-between;
+    color: chartreuse;
+}
+.NavUl li{
+    padding-left: 40px;
+    padding-right: 40px;
+}
+li:hover{
+    background-color: red;
+    border: 3px solid aqua;
+    border-radius: 15px;
+    box-shadow: 10px 5px 5px white;
+}
+.Navbutton{
+    border-radius: 15px;
+    border: 3px solid chartreuse;
+    background-color: blueviolet;
+}
+.Navbutton:hover{
+    background-color: red;
+    box-shadow: 10px 5px 5px white;
+}
+

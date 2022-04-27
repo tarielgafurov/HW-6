@@ -1,0 +1,23 @@
+.SectionBlock{
+    margin-top: 130px;
+    margin-left: 250px;
+    font-size: 30px;
+    color: white;
+    
+}
+h2{
+    width: 420px;
+}
+.SectionBlock h2{
+    box-shadow: 3px 3px red, -1em 0 .4em olive;
+}
+.SectionButton button{
+    margin-left: 30px;
+    background-color: darkgrey;
+    color: black;
+    border: 3px solid aqua;
+}
+.SectionButton button:hover{
+    background-color: red;
+    box-shadow: 10px 5px 5px white;
+}
